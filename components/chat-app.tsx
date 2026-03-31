@@ -189,6 +189,17 @@ function ChatExperience() {
             </div>
           )}
         </section>
+        <div className="px-4 pb-2 text-center text-xs text-zinc-500">
+          Built by Pierre Guirguis · X{" "}
+          <a
+            href="https://x.com/somevyn"
+            target="_blank"
+            rel="noreferrer"
+            className="text-zinc-300 transition hover:text-white"
+          >
+            @somevyn
+          </a>
+        </div>
         <section className="border-t border-zinc-800 bg-black/20 p-4 backdrop-blur-xl">
           <ChatInput onSubmit={sendMessage} disabled={isLoading || isGenerating} isGenerating={isGenerating} />
         </section>
