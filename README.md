@@ -31,6 +31,7 @@ Built as the web companion to [Atomic-1Bit](https://github.com/guirguispierre/At
 | SmolLM2 135M | 135M | ~135 MB | Absolute minimum viable |
 | Qwen 2.5 0.5B | 500M | ~350 MB | Best quality at tiny size |
 | Llama 3.2 1B | 1B | ~600 MB | Great all-rounder |
+| Qwen 2.5 1.5B | 1.5B | ~900 MB | Strong multilingual and coding |
 | Llama 3.2 3B | 3B | ~1.7 GB | Best quality, needs good GPU |
 
 ## How it works
@@ -45,7 +46,7 @@ Built as the web companion to [Atomic-1Bit](https://github.com/guirguispierre/At
 - **Inference**: [WebLLM](https://github.com/mlc-ai/web-llm) (WebGPU + TVM compiler)
 - **Framework**: Next.js 15, React 19, TypeScript
 - **UI**: shadcn/ui + Tailwind CSS
-- **Deployment**: Vercel (static hosting only)
+- **Deployment**: Vercel (no backend — server only sets security headers)
 
 ## Browser support
 
