@@ -152,6 +152,10 @@ function ChatExperience() {
           </Button>
         </div>
       </header>
+      <div className="border-b border-zinc-800 bg-amber-500/10 px-4 py-2 text-center text-xs text-amber-200">
+        Bit-Chat starts on a tiny local model for fast first-loads. It may feel less smart than the
+        larger options in the model picker.
+      </div>
       <main className="fade-in flex min-h-0 flex-1 flex-col">
         <section className="flex-1 overflow-hidden">
           {hasConversation ? (
@@ -168,6 +172,10 @@ function ChatExperience() {
                 This AI runs entirely in your browser. No server, no API key. Your conversations are
                 100% private — nothing leaves this device.
               </p>
+              <div className="mt-6 max-w-2xl rounded-2xl border border-amber-500/20 bg-amber-500/10 px-4 py-3 text-sm text-amber-100">
+                The default model is intentionally tiny so Bit-Chat loads quickly on first visit. If
+                the replies feel weak, switch to a larger model above for better quality.
+              </div>
               <div className="mt-10 grid w-full max-w-3xl gap-3 md:grid-cols-2">
                 {[
                   "Explain quantum computing simply",
