@@ -39,8 +39,8 @@ export const metadata: Metadata = {
     title: "Bit-Chat — AI in Your Browser",
     description:
       "Run a tiny LLM entirely in your browser using WebGPU. No server, no API key, no signup. 100% private.",
-    creator: "@somevyn",
-    site: "@somevyn",
+    creator: "@guirguispierre",
+    site: "@guirguispierre",
     images: [
       {
         url: "/og.png",
